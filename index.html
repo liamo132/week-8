@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Week 8 lab</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+
+		<div class="header">
+
+
+		<h1>Graded lab exercise - week 8</h1>
+		<ol>
+			<li>Add 3 examples of JavaScript code</li>
+			<li>Create a repo in GitHub and add your project when finished</li>
+			<li>Save the link to the GitHub repo in a text document and upload it to Moodle</li>
+			<ul>
+				<li>Your link should look like this https://github/username/repoName.git</li>
+			</ul>
+		</ol>
+
+			</div>
+
+			<div class="script">
+
+
+
+		<!-- add your JavaScript inside the section below -->
+	  <script type="text/javascript">
+
+		//1.creating a greeting alert
+
+		var name;
+		 name = prompt(" Enter your name!", "username");
+		 alert("Have a good day "  + name)
+
+		 //2.create an addition, Multiplicationand division script
+
+
+		 var num1;
+		 num1 = prompt("Enter first number");
+
+		         var numInteger = parseInt(num1);
+
+		 var num2;
+		num2 = prompt("Enter second number");
+
+	           	var numInteger = parseInt(num2);
+
+		var answer = num1 + num2;
+		  document.write("The addition of both numbers is " + answer) ;
+			document.write("<br>")
+
+
+
+		var answer = num1 * num2;
+		  document.write("The product of both numbers is " + answer);
+     	document.write("<br>")
+
+
+		var answer = num1 / num2;
+		  document.write("The division of both numbers is " + answer) ;
+	    document.write("<br>")
+				document.write("<br>")
+
+ </script>
+
+
+ <script type="text/javascript">
+
+
+		//time for a game!
+
+		var secret = prompt ("Guess a number between 1 and 10");
+		var parsedNumberValue = parseInt(secret);
+
+	    	var secretNumber = 2;
+
+		if (parsedNumberValue == secretNumber) {
+			document.write("2 is the correct number!");
+
+		} else if (parsedNumberValue < secretNumber) {
+			document.write("Unlucky! Try guess lower!");
+
+		} else {
+			document.write("hard luck! guess a number higher!");
+		}
+
+</script>
+
+
+	</div>
+
+
+	</body>
+
+
+</html>

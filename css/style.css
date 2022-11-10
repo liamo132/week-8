@@ -1,0 +1,10 @@
+.header{
+  border-style: solid;
+  border-bottom: 10px;
+  border-color: red;
+  background-color: lightgreen;
+}
+
+.script{
+  padding-top: 20px
+}
